@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    vertical-align: middle;
+            background-image: url('http://localhost/HAKAM/background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+  }
+  .box{
+    width: 600px;
+    background-color :cadetblue;
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: black;
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+    
+  .box-img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    /* align: center; */
+  }
+
+  .btn-group button {
+    background-color: #04AA6D; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
